@@ -4,5 +4,9 @@ sphinx-quickstart docs_src
 -> 著者名 koji  
 -> プロジェクトの言語 ja    
 
+## pyファイルからrstファイルを生成
+
+sphinx-apidoc -e -f -o ./docs .
+
 ## ドキュメントファイルの作成
 sphinx-build -b html ./docs_src ./docs  
