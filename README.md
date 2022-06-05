@@ -1,0 +1,1 @@
+[ドキュメント](https://kjman678.github.io/try_making_doc_from_docstring_by_sphinx/)
