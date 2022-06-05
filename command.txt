@@ -1,0 +1,8 @@
+## クイックスタート
+sphinx-quickstart docs_src
+-> プロジェクト名:test  
+-> 著者名 koji  
+-> プロジェクトの言語 ja    
+
+## ドキュメントファイルの作成
+sphinx-build -b html ./docs_src ./docs  
