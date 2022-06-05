@@ -12,6 +12,8 @@
 #
 import os
 import sys
+import sphinx_rtd_theme
+import sphinx_fontawesome
 sys.path.insert(0, os.path.abspath('../'))
 
 
@@ -30,8 +32,14 @@ author = 'koji'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'sphinx.ext.githubpages'
+    'sphinx.ext.githubpages',
+    'sphinx_rtd_theme', 
+    'sphinx_fontawesome', 
 ]
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
