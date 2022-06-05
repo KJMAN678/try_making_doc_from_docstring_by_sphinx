@@ -2,3 +2,4 @@
 docs_src/
 conf.py
 __pycache__/
+.DS_Store
